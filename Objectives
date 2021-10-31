@@ -1,0 +1,19 @@
+This file lists the objectives for the Design of Spark_v1.0, that are to be met for initial prototype of the project
+
+The HARDWARE objectives are as follows-
+
+1. To fix the initial and required working parameters like the range of Input & Output Volatge, Current and Power
+2. To have basic idea regarding the from factor and dimensions of the final product
+3. To perform calcuations (pssibly on a Excel Sheet) for the component sizing of the Sepic converter
+4. To come up with a basic schematic for the initial prototype and to perform a simulation of the design on LTSpice
+5. To verify the above design on a breadboard
+
+The FIRMWARE objectives are as follows-
+
+1. To come up with a basic C code for STM8s103F3P6 using STVD and STVP
+2. The code should be able to generate the required PWM signals along with a stable compensation loop using a PID in order to maintain a stable output (CV and CC)
+3. The MCU should also be configured to have a working UART for data transmission and reception along with a way to interact with the MCU
+4. To integrate the MCU with the above hardware to verify its working
+
+The above objectives are subject to changes in future. Ater the initial prototype is tested and once the design is verifried a new branch for PCB design and BOM generation will
+be made.
